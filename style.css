@@ -1,7 +1,7 @@
 * {
     margin: 0; padding: 0;
-    font-family: minion-pro;
-   
+    /* #font-family: minion-pro;
+    */
    
   }
 
@@ -17,6 +17,61 @@ body{
     text-decoration: none;
     font-size: 30px;
     
+}
+
+#griffin a{
+  color: #9d16ac;
+  text-decoration: none;
+}
+
+#griffin a:hover{
+  text-decoration:underline;
+}
+
+
+#griffin{
+  width: 70%;
+  margin: auto;
+  font-family: 'minion-pro';
+}
+
+#griffin p {
+  padding-bottom: 30px ;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+#griffin .media-embed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+}
+
+#griffin h1{
+  padding-bottom: 30px;
+}
+
+#griffin .headline {
+  font-size: 60px;
+  line-height: 55px;
+  padding-bottom: 10px;
+}
+
+#griffin .overline {
+  font-family: 'franklin-gothic-urw';
+  padding-bottom: 0%;
+  padding-top: 20%;
+
+}
+#letterfromed{
+  background-color: red;
+}
+
+#griffin .caption {
+ text-align: right;
+ font-family: 'franklin-gothic-urw';
+ font-size: 15px;
 }
 
 .section {
