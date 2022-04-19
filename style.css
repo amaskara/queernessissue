@@ -294,3 +294,115 @@ body{
  
  }
  
+
+ @import url(https://fonts.googleapis.com/css?family=Roboto:300,400);
+
+#rawFish {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #3e606f;
+  overflow: hidden;
+}
+
+#rawFish:before,
+#rawFish:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  min-width: 300vw;
+  min-height: 300vw;
+  background-color: #f7f4eb;
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+#rawFish:before {
+  bottom: 15vh;
+  border-radius: 45%;
+  animation-duration: 10s;
+}
+
+#rawFish:after {
+  bottom: 12vh;
+  opacity: 0.5;
+  border-radius: 47%;
+  animation-duration: 10s;
+}
+
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, 0) rotateZ(0deg);
+  }
+
+  50% {
+    transform: translate(-50%, -2%) rotateZ(180deg);
+  }
+
+  100% {
+    transform: translate(-50%, 0%) rotateZ(360deg);
+  }
+}
+
+#rawFish h1 {
+  padding-top: 40px;
+  color: #3e606f;
+  z-index: 10;
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: center;
+  font-family: Roboto;
+}
+#rawFish h2 {
+  color: #3e606f;
+  z-index: 10;
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: center;
+  font-family: Roboto;
+}
+
+#rawFish p {
+  color: black;
+  z-index: 10;
+  margin: 0;
+  font-weight: 300;
+  line-height: 1.3;
+  text-align: center;
+  font-family: "EB Garamond";
+}
+
+#rawFish h1 {
+  font-size: 30px;
+}
+
+@media (min-width: 480px) {
+  #rawFish h1 {
+    font-size: 45px;
+  }
+}
+
+#rawFish p {
+  font-size: 15px;
+}
+
+@media (min-width: 480px) {
+  #rawFish p {
+    font-size: 18px;
+  }
+}
+
+#rawFish h2 {
+  font-size: 14px;
+}
+@media (min-width: 480px) {
+  #rawFish h2 {
+    font-size: 20px;
+ }
+}
