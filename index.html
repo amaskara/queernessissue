@@ -63,8 +63,16 @@
           href="https://fonts.googleapis.com/css?family=Peddana">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans">
 
+<!-- Splitting -->
+<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting.css" />
+<link rel="stylesheet" href="https://unpkg.com/splitting/dist/splitting-cells.css" />
+<script src="https://unpkg.com/splitting/dist/splitting.min.js"></script>
+
 <!-- JS for Easy Scroll Dots -->
 <script type="text/javascript" src="easyScrollDots.min.js"></script>
+
+<script src="https://unpkg.com/splitting/dist/splitting.js"></script>
+<script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script>
   </head>
 <body>
 
@@ -514,7 +522,78 @@
   </div>
   <div class = "section" data-scroll-indicator-title="Coach Berube Profile">
 
-    Content in my section lorem ipsum dolor...
+    <article class="post">
+      <div>
+        <div class="absolute-bg" style="background-image: url('https://snworksceo.imgix.net/pri/ce19e1e6-8d8a-43a0-81d0-6ce02da0357b.sized-1000x1000.png');"></div>
+      </div>
+      <div class="post__container">
+        <span class="post__category">Interviews</span>
+        
+        <div class="post__content">
+          <header>
+            <time class="post__time">Apr 19 2022</time>
+            <h1 class="post__header"><span>Interview</span> <span>with</span> <span>Carla Berube</span></h1>
+          </header>
+        
+          <p class="post__text"><em>Carla Berube is the head coach of the Princeton women’s basketball team, which went 25–5 overall — including posting an undefeated 14–0 record in the Ivy League — in its most recent season. The team competed in the first two rounds of the NCAA March Madness tournament before</em> <a href="https://www.dailyprincetonian.com/article/2022/03/wbb-season-ends-in-second-round-loss-to-indiana"><em>falling</em></a> <em>to Indiana in a nailbiter.&nbsp;</em></p>
+          <br>
+          <p class="post__text"><em>Berube and her wife, Megan, have two sons, Parker and Caden, and a daughter, Brogan. She played college basketball at the University of Connecticut under legendary coach Geno Auriemma and played for the New England Blizzard in the now-defunct American Basketball League before becoming an assistant coach at Providence College. She served as the head coach for the Tufts University women’s basketball team from 2002 to 2019 and has been the head coach at Princeton since.</em></p>
+        </div>
+        <p class="post__text" style="text-align: center;" ><em>The interview has been lightly edited for clarity and concision.&nbsp;</em></p>
+        <div class="post__link" style="opacity: 0;">
+          <p  style="opacity: 0;">Older Posts</p>
+        </div>
+      </div>
+    </article>
+    
+    <div class="page">
+
+      <h1 data-splitting>    <strong>The Daily Princetonian:</strong> How would you describe your coaching style?</h1>
+      <p>    <strong>Carla Berube:</strong> I’m competitive and demanding, but I also think I’m an educator. My coaching is a lot of teaching the game. I hope I’m a good motivator, and I want to see all of my players be the best versions of themselves and have them feeling really confident and strong as competitors, but also as individuals off the court as well. So I think I’m kind of a player’s coach where yes, I’m coaching the game of basketball, but also, I’m hopefully someone that they can come to and talk about everything that is happening in their roles off the court, as well as on.&nbsp;</p>
+    
+      <h1 data-splitting> <strong>DP:</strong> What type of environment do you aim to foster among your players?&nbsp;</h1>
+    
+      <p>
+        <strong>CB:</strong> Just an inclusive environment where everybody has a voice and the ability to be who they are. It’s important for us to recognize, support, and celebrate everybody, whatever backgrounds they come from or how they identify. I hopefully am fostering and cultivating a really open team, where everybody can be themselves and feel like we’re all in this together.&nbsp;
+      </p>
+        
+      <h1 data-splitting><strong>DP:</strong> What has been the most difficult aspect of coaching?&nbsp;</h1>
+    
+      <p> <strong>CB:</strong> As a coach, you’re just so invested in each individual, and when you see them going through difficult times, you want to be there for them as much as they want. Throughout my career, there’ve been some tough times, but I wouldn’t trade this job for anything. I think one of the best pieces is that you can have an impact on 18 to 22-year-olds every year. And it’s a cycle; you get them for four years and then you see them move on, but you don’t lose that contact. It’s a pretty rewarding profession to watch them grow, spread their wings, and fly. There are many hard times, but all the great times certainly outweigh the tough ones.&nbsp;</p>
+        
+      <h1 data-splitting><strong>DP:</strong> What has been your proudest moment as a coach?&nbsp;</h1>
+    
+    
+      <p><strong>CB:</strong> I’ve had quite a few proud moments here at Princeton already. I was also at Tufts University for 17 years. I think that one of the things that I’m most proud of is that players, when they leave, either at Tufts or Princeton, still feel very connected to their experience here and to their teammates. It’s really important that my players have a great experience during their time in my programs and when they walk away from college, they’re not walking away from the family they made.&nbsp;&nbsp;</p>
+      <br>
+      <p> Also, I was really proud of my team this year making it to the [NCAA Tournament] Round of 32, and how resilient they were. It certainly was challenging at the beginning of the year when we hadn’t played together for 18 months, but with every day we took steps forward and came together, got better, and just kept building throughout the season. It just seemed like everybody was together, whether they were playing a lot on the floor or they were on the bench during games. Those bench players were so vital during practices to get us ready, and it just seemed like a really cohesive unit. It made the run that we had just so much fun, and I was just really proud of everyone.&nbsp;</p>
+    
+      <h1 data-splitting>DP:</strong> How did it feel to win the Ivy League and make it all the way to the Round of 32 in March Madness?&nbsp;</h1>
+    
+      <p><strong>CB:</strong> It was just a really fun, amazing journey for this team. Every season is different because there are different players and different leaders, but I just thought this group really came together and developed the chemistry that successful teams need. Watching that just grow throughout the year, into the Ivy League Tournament and those two games in the NCAA Tournament, was phenomenal. It was a great run, and I’ve had a couple of weeks now to reflect on what a tremendous ride it was.&nbsp;&nbsp;</p>
+    
+      <h1 data-splitting>DP:</strong> What impact, if any, would you say your identity has had in shaping your career?&nbsp;</h1>
+    
+      <p>CB:</strong> Certainly when I was a player in the mid-90s, my lifestyle and how I identified was much more of a secret. It was tough at that time to be who I was. I think during my time coaching at Tufts I really got more comfortable and shared who I was. Then, when I met my wife, it just made sense to open that door to my personal life with my team. And certainly when I was having children, I wanted my family at Tufts to know my family, outside of my profession. For me to connect with my players, I need to know them on a personal basis, and if I’m not open to them, they’re not going to be open to me. So I just opened the door, and it felt really comfortable to be who I was.&nbsp;</p>
+
+      <h1 data-splitting>DP:</strong> Has your personal identity influenced your perspective on your role as a coach?&nbsp;</h1>
+    
+      <p>CB:</strong> I hope that my players have felt like they could be who they are, if I’m doing that same thing. I put it in my bio so that recruits know that this is who I am, and I certainly talk about my family a lot, my wife and three kids.&nbsp;</p>
+      <br>
+      <p>I think becoming a mother certainly changed me as a coach. I think I’ve just become a little more calm and it puts it much more in perspective. You know, I’m coaching people’s daughters, so you just think about it in a different way, and it’s made me a better coach, having my own children.&nbsp;</p>
+      <br>
+      <p>So I don’t know exactly how me being out and open has affected everybody, but I hope it just makes my players and prospective student-athletes feel comfortable here.&nbsp;</p>
+      
+      <h1 data-splitting>DP:</strong> Are there any specific people that have helped you feel empowered and comfortable being open with your identity?&nbsp;</h1>
+    
+      <p>CB:</strong> At first, I had colleagues at Tufts who just made it feel really comfortable and OK and open. It’s now been maybe 13 years since I put it in my bio, and never once have I felt like that was a mistake or gotten negative feedback about it. I don’t know if there was anybody specifically that encouraged me to do it, but I just thought it was time to be who I am and that maybe it could impact others in a positive way to feel comfortable being who they are.</p>
+
+    </div>
+
+    <br>
+    <br>
+    <p class="post__text" style="text-align: center;" ><em>Alison Araten is a news staff writer for the ‘Prince.’ She can be reached at aaraten@princeton.edu and @alisonaraten on Instagram.</em></p>
+
   </div>
   <div class = "section" data-scroll-indicator-title="Queer Politics @ Princeton">
 
@@ -708,6 +787,10 @@
     Content in my section lorem ipsum dolor...
   </div>
   <script src="script.js"></script>
+  <script>Splitting();
+    ScrollOut({
+      targets: '[data-splitting]'
+    });</script>
 </body>
 
 
