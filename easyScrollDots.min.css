@@ -55,22 +55,27 @@
   @media (hover: none) {
     .scroll-indicator-controller > div span {
       display: none;
+    
     }
   }
-  .scroll-indicator-controller > div span:after {
+  /* .scroll-indicator-controller > div span:after {
     content: "-----";
     padding-left: 5px;
     letter-spacing: -2px;
     font-family: arial, sans-serif;
     vertical-align: text-top;
     line-height: 14px;
-  }
+   
+  } */
   @media (hover: hover), (-ms-high-contrast: none), (-ms-high-contrast: active) {
     .scroll-indicator-controller > div:hover span {
       width: auto;
       opacity: 1;
       overflow: visible;
       transform: translateY(-50%) translateX(0px);
+    background-color: white;
+    padding: 3px 3px 3px 3px;
+    border-radius: 2px;
     }
   }
   .scroll-indicator-controller > div.active {
