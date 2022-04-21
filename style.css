@@ -1153,6 +1153,7 @@ padding-top: 20%;
   width: 70%;
   margin: auto;
   font-family: 'minion-pro';
+  background-color: #050524;
   }
   
   #power p {
@@ -1198,5 +1199,5 @@ padding-top: 20%;
   }
 
   .powerBackground {
-    background-color: black;
+    background-color: #050524;
   }
