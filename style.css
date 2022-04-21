@@ -13,6 +13,7 @@ color: white;
 
 
 .logo a{
+
   color: black;
   text-decoration: none;
   font-size: 30px;
@@ -21,7 +22,8 @@ color: white;
 }
 
 .logo {
-  height: 20px;
+  margin-top: 5px;
+  height: 30px;
   width: auto;
 }
 
@@ -30,13 +32,63 @@ color: white;
   background-color: white;
   min-height: none;
 
+
+}
+
+#pride-alliance .podcast-container{
+  margin: auto;
+padding-top: 40px;
+padding-bottom: 40px;
+  width: 50%;
+}
+
+#pride-alliance{
+  background-color: red;
+  min-height: 50vh;
+}
+
+#pride-alliance p {
+  font-family: 'Noto Sans';
+}
+
+#pride-alliance .text {
+ width: 50%;
+ margin: auto;
+ padding-top: 40px;
 }
 
 
 
+#pride-alliance h1 {
+  font-family: 'Noto Sans';
+}
+
 #cover img{
   width: 100%;
   vertical-align: bottom
+}
+
+
+#berube {
+
+}
+#berube .page{
+  width: 1000;
+
+}
+
+#berube .page p{
+  font-family: 'Noto Sans';
+  text-align: right;
+  width: 90%;
+  margin-left: auto;
+}
+#berube .page h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  width: 70%;
+  line-height: 30px;
+  font-family: 'Noto Sans';
 }
 #letterfromed{
 
@@ -60,12 +112,17 @@ background-color: #353839;
 
   }
 
+  #puzzle {
+    background-color: white;
+  }
   #letterfromed h1 {
 
     font-family: 'franklin-gothic-urw-cond';
     font-size: 80px;
 
     letter-spacing: 4px;
+
+    line-height: 70px;
 
     }
 
@@ -85,7 +142,7 @@ background-color: #353839;
 
 
       #letterfromed img{
-        width: 70%;
+        width: 60%;
         padding-left: 3%;
 
         object-fit: contain;
@@ -810,7 +867,7 @@ transform: translateY(0.25em);
 }
 /* ---------------------------------- */
 .page {
-max-width: 40em;
+max-width: 50em;
 margin: auto;
 overflow: hidden;
 padding-left: 20px;
@@ -1111,3 +1168,69 @@ padding-top: 20%;
   padding: 1rem 0;
   font-size: 18px;
 }
+#PowerColor {
+  color: #ffdd87;
+}
+
+#power a{
+  color: #ffdd87;
+  text-decoration: none;
+  }
+
+  #power a:hover{
+  text-decoration:underline;
+  }
+
+
+  #power{
+  width: 70%;
+  margin: auto;
+  font-family: 'minion-pro';
+  background-color: #050524;
+  }
+
+  #power p {
+  padding-bottom: 30px ;
+  font-size: 20px;
+  line-height: 30px;
+  }
+
+  #power .media-embed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  }
+
+  #power h1{
+  padding-bottom: 30px;
+  text-shadow:1px 1px 10px #ffdd87;
+  }
+
+  #power .headline {
+  font-size: 60px;
+  line-height: 55px;
+  padding-bottom: 10px;
+  }
+
+  #power .overline {
+  font-family: 'franklin-gothic-urw';
+  padding-bottom: 0%;
+  padding-top: 20%;
+
+  }
+
+  #power .caption {
+  text-align: right;
+  font-family: 'franklin-gothic-urw';
+  font-size: 15px;
+  }
+
+  #power b {
+    font-weight: normal;
+    text-shadow:1px 1px 10px #ffdd87;
+  }
+
+  .powerBackground {
+    background-color: #050524;
+  }
