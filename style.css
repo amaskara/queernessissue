@@ -39,7 +39,7 @@ color: white;
   vertical-align: bottom
 }
 #letterfromed{
- 
+
 background-color: #353839;
 }
 
@@ -55,7 +55,7 @@ background-color: #353839;
   font-size: 20px;
   line-height: 30px;
   font-family: 'Noto Sans' !important;
- 
+
 
 
   }
@@ -66,13 +66,13 @@ background-color: #353839;
     font-size: 80px;
 
     letter-spacing: 4px;
-   
+
     }
 
     #letterfromed .byline {
 
      font-weight: 1000;
-     
+
       }
 
     #letterfromed .intro {
@@ -82,8 +82,8 @@ background-color: #353839;
         margin-bottom: 30px;
       }
 
-  
-    
+
+
       #letterfromed img{
         width: 70%;
         padding-left: 3%;
@@ -91,7 +91,7 @@ background-color: #353839;
         object-fit: contain;
 
       }
-  
+
 
 #griffin a{
 color: #9d16ac;
@@ -441,9 +441,10 @@ border-radius: 3px;
 flex: 1;
 }
 
-
-
 @media only screen and (max-width: 980px) {
+  .gallery-cell {
+    width: 100% !important; /* full width */
+  }
 
   #letterfromed .intro {
     flex-direction: column;
@@ -1079,4 +1080,34 @@ font-family: 'franklin-gothic-urw';
 padding-bottom: 0%;
 padding-top: 20%;
 
+}
+
+.gallery-div {
+  background: rgba(255,255,255,0.08);
+}
+
+#readmore h2, .gallery-title {
+  font-family: 'Noto Sans' !important;
+}
+
+.gallery-title {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.gallery-cell {
+  width: 40%; /* full width */
+  text-align: center;
+  /* center images in cells with flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-cell h2 {
+  padding: 1rem 0;
+  font-size: 18px;
 }
