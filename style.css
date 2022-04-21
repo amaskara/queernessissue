@@ -66,12 +66,25 @@ padding-bottom: 40px;
   vertical-align: bottom
 }
 
-#berube p{
+
+#berube {
+
+}
+#berube .page{
+  width: 1000;
+
+}
+
+#berube .page p{
   font-family: 'Noto Sans';
+  text-align: right;
+  width: 90%;
+  margin-left: auto;
 }
 #berube .page h1 {
   padding-top: 40px;
   padding-bottom: 20px;
+  width: 70%;
   line-height: 30px;
   font-family: 'Noto Sans';
 }
@@ -850,7 +863,7 @@ transform: translateY(0.25em);
 }
 /* ---------------------------------- */
 .page {
-max-width: 40em;
+max-width: 50em;
 margin: auto;
 overflow: hidden;
 padding-left: 20px;
