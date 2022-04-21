@@ -13,7 +13,7 @@ color: white;
 
 
 .logo a{
- 
+
   color: black;
   text-decoration: none;
   font-size: 30px;
@@ -43,8 +43,12 @@ padding-bottom: 40px;
 }
 
 #pride-alliance{
-  background-color: red;
-  min-height: 50vh;
+
+  min-height: 70vh;
+
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
 }
 
 #pride-alliance p {
@@ -91,7 +95,7 @@ padding-bottom: 40px;
   font-family: 'Noto Sans';
 }
 #letterfromed{
- 
+
 background-color: #353839;
 }
 
@@ -107,7 +111,7 @@ background-color: #353839;
   font-size: 20px;
   line-height: 30px;
   font-family: 'Noto Sans' !important;
- 
+
 
 
   }
@@ -121,14 +125,15 @@ background-color: #353839;
     font-size: 80px;
 
     letter-spacing: 4px;
+
     line-height: 70px;
-   
+
     }
 
     #letterfromed .byline {
 
      font-weight: 1000;
-     
+
       }
 
     #letterfromed .intro {
@@ -138,8 +143,8 @@ background-color: #353839;
         margin-bottom: 30px;
       }
 
-  
-    
+
+
       #letterfromed img{
         width: 60%;
         padding-left: 3%;
@@ -147,7 +152,7 @@ background-color: #353839;
         object-fit: contain;
 
       }
-  
+
 
 #griffin a{
 color: #9d16ac;
@@ -499,9 +504,10 @@ border-radius: 3px;
 flex: 1;
 }
 
-
-
 @media only screen and (max-width: 980px) {
+  .gallery-cell {
+    width: 100% !important; /* full width */
+  }
 
   #letterfromed .intro {
     flex-direction: column;
@@ -1136,6 +1142,35 @@ padding-top: 20%;
 
 }
 
+.gallery-div {
+  background: rgba(255,255,255,0.08);
+}
+
+#readmore h2, .gallery-title {
+  font-family: 'Noto Sans' !important;
+}
+
+.gallery-title {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  padding: 10px;
+}
+
+.gallery-cell {
+  width: 40%; /* full width */
+  text-align: center;
+  /* center images in cells with flexbox */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-cell h2 {
+  padding: 1rem 0;
+  font-size: 18px;
+}
 #PowerColor {
   color: #ffdd87;
 }
@@ -1144,50 +1179,50 @@ padding-top: 20%;
   color: #ffdd87;
   text-decoration: none;
   }
-  
+
   #power a:hover{
   text-decoration:underline;
   }
-  
-  
+
+
   #power{
   width: 70%;
   margin: auto;
   font-family: 'minion-pro';
   background-color: #050524;
   }
-  
+
   #power p {
   padding-bottom: 30px ;
   font-size: 20px;
   line-height: 30px;
   }
-  
+
   #power .media-embed {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
-  
+
   }
-  
+
   #power h1{
   padding-bottom: 30px;
   text-shadow:1px 1px 10px #ffdd87;
   }
-  
+
   #power .headline {
   font-size: 60px;
   line-height: 55px;
   padding-bottom: 10px;
   }
-  
+
   #power .overline {
   font-family: 'franklin-gothic-urw';
   padding-bottom: 0%;
   padding-top: 20%;
-  
+
   }
-  
+
   #power .caption {
   text-align: right;
   font-family: 'franklin-gothic-urw';
