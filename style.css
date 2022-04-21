@@ -44,8 +44,12 @@ padding-bottom: 40px;
 }
 
 #pride-alliance{
-  background-color: red;
-  min-height: 50vh;
+
+  min-height: 70vh;
+
+  background-color: #a4508b;
+background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+
 }
 
 #pride-alliance p {
@@ -80,7 +84,7 @@ padding-bottom: 40px;
 
 #berube .page p{
   font-family: 'Noto Sans';
-  text-align: right;
+  text-align: left;
   width: 90%;
   margin-left: auto;
 }
@@ -203,6 +207,8 @@ text-align: right;
 font-family: 'franklin-gothic-urw';
 font-size: 15px;
 }
+
+
 
 .section {
 min-height: 100vh;
@@ -550,7 +556,7 @@ text-decoration: none;
 color: black;
 }
 
-.frontpage {
+#readmore .frontpage {
 position: relative;
 display: grid;
 grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
@@ -559,10 +565,11 @@ grid-gap: 1.5vw;
  margin: 0% 10% 5% 10%;
 background-color: transparent;
 color: black;
+padding-bottom: 20px;
 
 }
 
-.cround {
+#readmore .cround {
 border-radius: 10px;
 overflow: auto;
 max-width: 100%;
@@ -571,7 +578,7 @@ margin-bottom: 5%
 
 }
 
-.fp-cell {
+#readmore .fp-cell {
 background-color:  #e8e8e8;
 padding: 15px;
  border-radius: 10px;
@@ -582,19 +589,19 @@ padding: 15px;
 }
 
 
-.fp-cell:hover {
+#readmore .fp-cell:hover {
 
 box-shadow: 0 8px 32px 0 rgba(0,0,0,0.2);
 }
 
-.lighter-reads-1 {
+#readmore .lighter-reads-1 {
 grid-row: 1 / span 3;
 grid-column: 1 / span 2;
 padding-left: 3%;
 padding-right: 3%;
 }
 
-.fp-item-1 {
+#readmore .fp-item-1 {
 
 display: flex;
 align-items: flex-start;
@@ -610,11 +617,11 @@ padding-bottom: 3%;
 
 }
 
-.article {
+#readmore .article {
 margin-right: 5%;
 }
 
-.cool{
+#readmore .cool{
 background-size: cover;
 
 max-width: 100%;
@@ -630,14 +637,14 @@ display: block;
 
 }
 
-.lighter-reads-2 {
+#readmore .lighter-reads-2 {
 grid-row: 1 / span 3;
 grid-column: 3 / span 2;
 padding-left: 3%;
 padding-right: 3%;
 }
 
-.lighter-reads-3 {
+#readmore .lighter-reads-3 {
 grid-row: 1 / span 3;
 grid-column: 5 / span 2;
 padding-left: 3%;
@@ -656,18 +663,16 @@ text-align: center;
 
 }
 
-.frontpage{
-padding-bottom: 20px;
-}
 
-.recent-reads-1 {
+
+#readmore .recent-reads-1 {
 grid-row: 1/ span 3;
 grid-column: 1 / span 3;
 padding-bottom: 4%;
 
 }
 
-.recent-reads-2 {
+#readmore .recent-reads-2 {
 grid-row: 1 / span 3;
 grid-column: 4 / span 3;
 
@@ -677,8 +682,7 @@ padding-right: 3%;
 
 }
 
-
-.recent-reads-3{
+#readmore .recent-reads-3{
 
 grid-column: 4 / span 3;
 grid-row: 3 / span 1;
@@ -688,24 +692,23 @@ display: none;
 
 }
 
-.horizontal-block{
+#readmore .horizontal-block{
 display: flex;
 flex-direction: row;
 
 padding-bottom: 3%;
-
-
 }
 
-.push{
+#readmore .longer-reads-2 {
+  grid-row: 1 / span 3;
+  grid-column: 4 / span 3;
+}
+
+#readmore .push{
 margin-bottom: auto;
 }
 
-.article {
-margin-right: 5%;
-}
-
-.fp-item-1 {
+#readmore .fp-item-1 {
 
 display: flex;
 align-items: flex-start;
@@ -721,7 +724,7 @@ padding-bottom: 3%;
 
 }
 
-.uncool{
+#readmore .uncool{
 
 background-size: cover;
 max-width: 100%;
@@ -732,7 +735,7 @@ object-fit: contain;
 display: block;
 }
 
-.round {
+#readmore .round {
 border-radius: 10px;
  overflow: auto;
  max-width: 40%;
@@ -752,7 +755,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 min-height: 100vh;
-background-color: #3e606f;
+background-color: #cca1ba;
 overflow: hidden;
 }
 
@@ -763,7 +766,7 @@ position: absolute;
 left: 50%;
 min-width: 300vw;
 min-height: 300vw;
-background-color: #f7f4eb;
+background-color: white;
 animation-name: rotate;
 animation-iteration-count: infinite;
 animation-timing-function: linear;
@@ -798,22 +801,22 @@ animation-duration: 10s;
 
 #rawFish h1 {
 padding-top: 40px;
-color: #3e606f;
+color: #cca1ba;
 z-index: 10;
 margin: 0;
 font-weight: 300;
 line-height: 1.3;
 text-align: center;
-font-family: 'Noto Sans' !important;
+
 }
 #rawFish h2 {
-color: #3e606f;
+color: #cca1ba;
 z-index: 10;
 margin: 0;
 font-weight: 300;
 line-height: 1.3;
 text-align: center;
-font-family: 'Noto Sans' !important;
+
 }
 
 #rawFish p {
@@ -1236,3 +1239,134 @@ padding-top: 20%;
   .powerBackground {
     background-color: #050524;
   }
+
+
+  #remembrance a{
+    color: #9d16ac;
+    text-decoration: none;
+    }
+
+    #remembrance a:hover{
+    text-decoration:underline;
+    }
+
+
+    #remembrance .text{
+    width: 70%;
+    margin: auto;
+    font-family: 'minion-pro';
+    }
+
+    #remembrance p {
+    padding-bottom: 30px ;
+    font-size: 20px;
+    line-height: 30px;
+    }
+
+    #remembrance .media-embed {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+    }
+
+    #remembrance h1{
+    padding-bottom: 30px;
+    }
+
+    #remembrance .headline {
+    font-size: 60px;
+    line-height: 55px;
+    padding-bottom: 10px;
+    }
+
+    #remembrance .overline {
+    font-family: 'franklin-gothic-urw';
+    padding-bottom: 0%;
+    padding-top: 20%;
+
+    }
+
+
+    #remembrance .caption {
+    text-align: right;
+    font-family: 'franklin-gothic-urw';
+    font-size: 15px;
+    }
+
+    #cooleffect{
+      height: 1vh;
+    }
+
+    #remembrance #notes p{
+      font-size: 18px;
+      line-height: 25px;
+    }
+
+
+
+    /* Explanation in JS tab */
+
+/* Cool font from Google Fonts! */
+@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
+
+body {
+	margin: 0px;
+}
+
+#remembrance #container {
+	/* Center the text in the viewport. */
+	position: absolute;
+	margin: auto;
+	width: 100vw;
+	height: 80pt;
+	top: 0;
+	bottom: 0;
+
+	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
+	filter: url(#threshold) blur(0.6px);
+}
+
+/* Your average text styling */
+#remembrance #caption1, #caption2 {
+	position: absolute;
+	width: 100%;
+	display: inline-block;
+	font-family: 'Raleway', sans-serif;
+	font-size: 80pt;
+	text-align: center;
+  color: white;
+	user-select: none;
+}
+
+.star0 {
+  height: 1px;
+  width: 1px;
+  opacity: 1;
+  position: absolute;
+}
+
+.star1 {
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
+.star2 {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
+.star3 {
+  height: 4px;
+  width: 4px;
+  border-radius: 50%;
+  opacity: 1;
+  position: absolute;
+}
+
