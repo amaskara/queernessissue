@@ -1111,3 +1111,69 @@ padding-bottom: 0%;
 padding-top: 20%;
 
 }
+
+#PowerColor {
+  color: #ffdd87;
+}
+
+#power a{
+  color: #ffdd87;
+  text-decoration: none;
+  }
+  
+  #power a:hover{
+  text-decoration:underline;
+  }
+  
+  
+  #power{
+  width: 70%;
+  margin: auto;
+  font-family: 'minion-pro';
+  }
+  
+  #power p {
+  padding-bottom: 30px ;
+  font-size: 20px;
+  line-height: 30px;
+  }
+  
+  #power .media-embed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  
+  }
+  
+  #power h1{
+  padding-bottom: 30px;
+  text-shadow:1px 1px 10px #ffdd87;
+  }
+  
+  #power .headline {
+  font-size: 60px;
+  line-height: 55px;
+  padding-bottom: 10px;
+  }
+  
+  #power .overline {
+  font-family: 'franklin-gothic-urw';
+  padding-bottom: 0%;
+  padding-top: 20%;
+  
+  }
+  
+  #power .caption {
+  text-align: right;
+  font-family: 'franklin-gothic-urw';
+  font-size: 15px;
+  }
+
+  #power b {
+    font-weight: normal;
+    text-shadow:1px 1px 10px #ffdd87;
+  }
+
+  .powerBackground {
+    background-color: black;
+  }
