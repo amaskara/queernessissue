@@ -29,8 +29,8 @@
     height: 10px;
     position: relative;
     border-radius: 50%;
-    border: 1px solid white;
-    /* background: rgba(0, 0, 0, 0.25); */
+    border: 1px solid gray;
+    background: gray;
     margin: 0 0 20px 0;
     cursor: pointer;
     transition: background 0.4s ease;
@@ -79,7 +79,7 @@
     }
   }
   .scroll-indicator-controller > div.active {
-    background: white;
+    background: pink;
     border-color: rgba(0, 0, 0, 0.25);
   }
   @supports (-ms-ime-align:auto) {
