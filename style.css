@@ -13,6 +13,7 @@ color: white;
 
 
 .logo a{
+ 
   color: black;
   text-decoration: none;
   font-size: 30px;
@@ -21,7 +22,8 @@ color: white;
 }
 
 .logo {
-  height: 20px;
+  margin-top: 5px;
+  height: 30px;
   width: auto;
 }
 
