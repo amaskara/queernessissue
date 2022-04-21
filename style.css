@@ -65,6 +65,16 @@ padding-bottom: 40px;
   width: 100%;
   vertical-align: bottom
 }
+
+#berube p{
+  font-family: 'Noto Sans';
+}
+#berube .page h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  line-height: 30px;
+  font-family: 'Noto Sans';
+}
 #letterfromed{
  
 background-color: #353839;
