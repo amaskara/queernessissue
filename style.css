@@ -58,10 +58,33 @@ background-color: #353839;
 
     font-family: 'franklin-gothic-urw-cond';
     font-size: 80px;
-    padding-bottom: 20px;
+
     letter-spacing: 4px;
    
     }
+
+    #letterfromed .byline {
+
+     font-weight: 1000;
+     
+      }
+
+    #letterfromed .intro {
+        display: flex;
+
+        width: 100%;
+        margin-bottom: 30px;
+      }
+
+  
+    
+      #letterfromed img{
+        width: 70%;
+        padding-left: 3%;
+
+        object-fit: contain;
+
+      }
   
 
 #griffin a{
@@ -415,6 +438,14 @@ flex: 1;
 
 
 @media only screen and (max-width: 980px) {
+
+  #letterfromed .intro {
+    flex-direction: column;
+  }
+
+  #letterfromed img{
+    padding-left: 0%;
+  }
 .HowWholeWrapper {
   display: block;
   padding-bottom: 20px;
