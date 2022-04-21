@@ -19,6 +19,51 @@ color: white;
 
 }
 
+
+#cover {
+  background-color: white;
+  min-height: none;
+
+}
+
+
+
+#cover img{
+  width: 100%;
+  vertical-align: bottom
+}
+#letterfromed{
+ 
+background-color: #353839;
+}
+
+#letterfromed .text{
+  padding-top: 10%;
+  width: 70%;
+  margin: auto;
+
+}
+
+#letterfromed p {
+  padding-bottom: 30px ;
+  font-size: 20px;
+  line-height: 30px;
+  font-family: 'Noto Sans' !important;
+ 
+
+
+  }
+
+  #letterfromed h1 {
+
+    font-family: 'franklin-gothic-urw-cond';
+    font-size: 80px;
+    padding-bottom: 20px;
+    letter-spacing: 4px;
+   
+    }
+  
+
 #griffin a{
 color: #9d16ac;
 text-decoration: none;
@@ -29,7 +74,7 @@ text-decoration:underline;
 }
 
 
-#griffin{
+#griffin .text{
 width: 70%;
 margin: auto;
 font-family: 'minion-pro';
@@ -64,9 +109,7 @@ padding-bottom: 0%;
 padding-top: 20%;
 
 }
-#letterfromed{
-background-color: red;
-}
+
 
 #griffin .caption {
 text-align: right;
@@ -76,6 +119,8 @@ font-size: 15px;
 
 .section {
 min-height: 100vh;
+background-color: black;
+
 }
 
 #howWhole {
@@ -366,6 +411,8 @@ padding: .3em 1em;
 border-radius: 3px;
 flex: 1;
 }
+
+
 
 @media only screen and (max-width: 980px) {
 .HowWholeWrapper {
@@ -661,7 +708,7 @@ margin: 0;
 font-weight: 300;
 line-height: 1.3;
 text-align: center;
-font-family: Roboto;
+font-family: 'Noto Sans' !important;
 }
 #rawFish h2 {
 color: #3e606f;
@@ -670,7 +717,7 @@ margin: 0;
 font-weight: 300;
 line-height: 1.3;
 text-align: center;
-font-family: Roboto;
+font-family: 'Noto Sans' !important;
 }
 
 #rawFish p {
@@ -680,7 +727,7 @@ margin: 0;
 font-weight: 300;
 line-height: 1.3;
 text-align: center;
-font-family: "EB Garamond";
+font-family: 'Noto Sans' !important;
 }
 
 #rawFish h1 {
@@ -968,7 +1015,7 @@ animation: fade-in 0.8s ease-in-out both 1s;
 }
 }
 
-#joshbabu {
+#joshbabu .text {
 width: 70%;
 margin: auto;
 font-family: 'franklin-gothic-urw';
