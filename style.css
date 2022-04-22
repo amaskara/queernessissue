@@ -764,7 +764,7 @@ justify-content: center;
 align-items: center;
 flex-direction: column;
 min-height: 100vh;
-background-color: #cca1ba;
+background-color: #3e606f;
 overflow: hidden;
 }
 
@@ -810,7 +810,7 @@ animation-duration: 10s;
 
 #rawFish h1 {
 padding-top: 40px;
-color: #cca1ba;
+color: #3e606f;
 z-index: 10;
 margin: 0;
 font-weight: 300;
@@ -819,7 +819,7 @@ text-align: center;
 /* font-family: 'Noto Sans' !important; */
 }
 #rawFish h2 {
-color: #cca1ba;
+color: #3e606f;
 z-index: 10;
 margin: 0;
 font-weight: 300;
@@ -1418,6 +1418,26 @@ body {
 	user-select: none;
   margin-top: 1438%;
   font-style: italic;
+}
+ 
+#credit .text{
+text-align: center;
+line-height: 1px;
+}
+
+#credit p{
+padding-bottom: none;
+font-family: 'Noto Sans';
+  }
+
+  #credit h1{
+    padding-bottom: none;
+    font-family: 'Noto Sans';
+    color:#9d16ac
+ }
+
+#credit .text{
+  padding-top: 10%;
 }
 
 .star0 {
