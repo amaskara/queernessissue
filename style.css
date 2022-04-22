@@ -1,10 +1,11 @@
 * {
   margin: 0; padding: 0;
   font-family: minion-pro;
-
-
 }
 
+html {
+  background-color: black;
+}
 body{
 background-color: black;
 color: white;
@@ -1146,6 +1147,7 @@ padding-top: 20%;
 
 .gallery-div {
   background: rgba(255,255,255,0.08);
+  margin-bottom: 40px;
 }
 
 #readmore h2, .gallery-title {
@@ -1153,10 +1155,10 @@ padding-top: 20%;
 }
 
 .gallery-title {
-  font-size: 30px;
+  font-size: 24px;
   text-align: center;
   color: white;
-  padding: 10px;
+  padding: 14px;
 }
 
 .gallery-cell {
@@ -1245,49 +1247,49 @@ padding-top: 20%;
     color: #9d16ac;
     text-decoration: none;
     }
-    
-    #remembrance a:hover{
+
+    /* #remembrance a:hover{
     text-decoration:underline;
-    }
-    
-    
+    } */
+
+
     #remembrance .text{
     width: 70%;
     margin: auto;
     font-family: 'minion-pro';
     }
-    
+
     #remembrance p {
     padding-bottom: 30px ;
     font-size: 20px;
     line-height: 30px;
     }
-    
+
     #remembrance .media-embed {
     margin-left: auto;
     margin-right: auto;
     width: 100%;
-    
+
     }
-    
+
     #remembrance h1{
     padding-bottom: 30px;
     }
-    
+
     #remembrance .headline {
     font-size: 60px;
     line-height: 55px;
     padding-bottom: 10px;
     }
-    
+
     #remembrance .overline {
     font-family: 'franklin-gothic-urw';
     padding-bottom: 0%;
     padding-top: 20%;
-    
+
     }
 
-    
+
     #remembrance .caption {
     text-align: right;
     font-family: 'franklin-gothic-urw';
@@ -1303,7 +1305,7 @@ padding-top: 20%;
       line-height: 25px;
     }
 
-    
+
 
     /* Explanation in JS tab */
 
@@ -1322,7 +1324,7 @@ body {
 	height: 80pt;
 	top: 0;
 	bottom: 0;
-	
+
 	/* This filter is a lot of the magic, try commenting it out to see how the morphing works! */
 	filter: url(#threshold) blur(0.6px);
 }
