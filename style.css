@@ -213,6 +213,17 @@ font-family: 'franklin-gothic-urw';
 font-size: 15px;
 }
 
+#draw .caption {
+text-align: center;
+  font-family: 'franklin-gothic-urw';
+  font-size: 15px;
+  }
+#remembrance .caption {
+  text-align: right;
+  font-family: 'franklin-gothic-urw';
+  font-size: 15px;
+  }
+  
 
 
 .section {
