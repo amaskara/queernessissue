@@ -71,7 +71,7 @@ background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
 
 #cover img{
   width: 100%;
-  vertical-align: bottom
+  vertical-align: bottom !important;
 }
 
 
@@ -178,6 +178,10 @@ font-size: 20px;
 line-height: 30px;
 }
 
+.section {
+
+}
+
 #griffin .media-embed {
 margin-left: auto;
 margin-right: auto;
@@ -198,7 +202,7 @@ padding-bottom: 10px;
 #griffin .overline {
 font-family: 'franklin-gothic-urw';
 padding-bottom: 0%;
-padding-top: 20%;
+padding-top: 15%;
 
 }
 
@@ -507,6 +511,7 @@ flex: 1;
 }
 
 @media only screen and (max-width: 980px) {
+
   .gallery-cell {
     width: 100% !important; /* full width */
   }
