@@ -512,6 +512,9 @@ flex: 1;
 
 @media only screen and (max-width: 980px) {
 
+  .absolute-bg {
+    position: relative;
+  }
   .gallery-cell {
     width: 100% !important; /* full width */
   }
@@ -893,7 +896,7 @@ box-sizing: border-box;
 } */
 .post h1 {
 margin-top: 0;
-margin-bottom: 0.25em;
+
 font-size: 4em;
 font-weight: 900;
 line-height: 0.9;
