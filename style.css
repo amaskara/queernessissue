@@ -1187,6 +1187,10 @@ animation: fade-in 0.8s ease-in-out both 1s;
 );
 }
 
+#dolan h1 {
+  font-size: 50px;
+}
+
 .coloredboxleft {
   width: 80%;
 }
