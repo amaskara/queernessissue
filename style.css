@@ -9,7 +9,7 @@ html {
 body{
 background-color: black;
 color: white;
-/* overflow-x: hidden; */
+overflow-x: hidden;
 }
 
 
@@ -178,9 +178,6 @@ font-size: 20px;
 line-height: 30px;
 }
 
-.section {
-
-}
 
 #griffin .media-embed {
 margin-left: auto;
@@ -202,7 +199,7 @@ padding-bottom: 10px;
 #griffin .overline {
 font-family: 'franklin-gothic-urw';
 padding-bottom: 0%;
-padding-top: 15%;
+padding-top: 10vh;
 
 }
 
@@ -223,7 +220,7 @@ text-align: center;
   font-family: 'franklin-gothic-urw';
   font-size: 15px;
   }
-  
+
 
 
 .section {
@@ -237,8 +234,8 @@ font-family: 'Peddana', serif;
 font-size: 20px;
 background-color: #3b0404; /* For browsers that do not support gradients */
 background-image: linear-gradient(to bottom right, #3b0404, #000000);
-padding-top: 30px;
-padding-bottom: 30px;
+padding-top: 10vh;
+padding-bottom: 10vh;
 }
 
 #howWholeContent {
@@ -1254,7 +1251,7 @@ padding-bottom: 10px;
 #joshbabu .overline {
 font-family: 'franklin-gothic-urw';
 padding-bottom: 0%;
-padding-top: 20%;
+padding-top: 10vh;
 
 }
 
@@ -1336,7 +1333,7 @@ padding-top: 20%;
   #power .overline {
   font-family: 'franklin-gothic-urw';
   padding-bottom: 0%;
-  padding-top: 20%;
+  padding-top: 10vh;
 
   }
 
@@ -1402,7 +1399,7 @@ padding-top: 20%;
     #remembrance .overline {
     font-family: 'franklin-gothic-urw';
     padding-bottom: 0%;
-    padding-top: 20%;
+    padding-top: 10vh;
 
     }
 
@@ -1459,7 +1456,7 @@ body {
   margin-top: 1438%;
   font-style: italic;
 }
- 
+
 #credit .text{
 text-align: center;
 line-height: 1px;
@@ -1559,7 +1556,7 @@ font-family: 'Noto Sans';
   #moving .overline {
   font-family: 'franklin-gothic-urw';
   padding-bottom: 0%;
-  padding-top: 20%;
+  padding-top: 10vh;
 
   }
 
@@ -1584,7 +1581,7 @@ font-family: 'Noto Sans';
     background-size: 400% 400%;
     animation: gradient 15s ease infinite;
   }
-  
+
   @keyframes gradient {
     0% {
       background-position: 0% 50%;
@@ -1596,7 +1593,7 @@ font-family: 'Noto Sans';
       background-position: 0% 50%;
     }
   }
-  
+
 
   #puzzle h1 {
     font-family: 'Noto Sans';
@@ -1607,7 +1604,7 @@ font-family: 'Noto Sans';
     margin: auto;
     padding-top: 40px;
    }
- 
+
    #puzzle .wrapper {
     display: flex;
     background-color: rgba(255, 255, 255, 0.50);
