@@ -1472,3 +1472,72 @@ font-family: 'Noto Sans';
 }
 
 
+#moving a{
+  color: #f1adff;
+  text-decoration: none;
+  }
+
+  #moving a:hover{
+  text-decoration:underline;
+  }
+
+
+  #moving{
+  width: 70%;
+  margin: auto;
+  font-family: 'minion-pro';
+  background-color: #1d0438;
+  }
+
+  #moving p {
+  padding-bottom: 30px ;
+  font-size: 20px;
+  line-height: 30px;
+  }
+
+  #moving .media-embed {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: 2px solid #edbbce;
+  }
+
+  #moving h1{
+  padding-bottom: 30px;
+  background: -webkit-linear-gradient(180deg, #edbbce, #f1adff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  #moving .headline {
+  font-size: 60px;
+  line-height: 55px;
+  padding-bottom: 10px;
+  }
+
+  #moving .overline {
+  font-family: 'franklin-gothic-urw';
+  padding-bottom: 0%;
+  padding-top: 20%;
+
+  }
+
+  #moving .caption {
+  text-align: right;
+  font-family: 'franklin-gothic-urw';
+  font-size: 15px;
+  }
+
+  .movingBackground {
+    background-color: #1d0438;
+  }
+
+  .rectangle {
+    height: 40px;
+    width: 100%;
+    background: -webkit-linear-gradient(180deg, #edbbce, #f1adff);
+  }
+
+
+
