@@ -9,6 +9,7 @@ html {
 body{
 background-color: black;
 color: white;
+overflow-x: hidden;
 }
 
 
@@ -1114,6 +1115,23 @@ animation: fade-in 0.8s ease-in-out both 1s;
 }
 }
 
+#joshbabu {
+  background-image: linear-gradient(
+  30deg,
+  hsl(278deg 51% 17%) 0%,
+  hsl(268deg 44% 18%) 26%,
+  hsl(258deg 38% 20%) 39%,
+  hsl(248deg 34% 21%) 50%,
+  hsl(238deg 31% 22%) 61%,
+  hsl(230deg 33% 22%) 74%,
+  hsl(225deg 34% 23%) 100%
+);
+background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #joshbabu .text {
 width: 70%;
 margin: auto;
@@ -1246,9 +1264,13 @@ padding-top: 20%;
     text-decoration: none;
     }
 
-    /* #remembrance a:hover{
+  #remembrance a:hover{
     text-decoration:underline;
-    } */
+    }
+
+  #read-more a:hover {
+    text-decoration: none !important;
+  }
 
 
     #remembrance .text{
@@ -1369,4 +1391,5 @@ body {
   opacity: 1;
   position: absolute;
 }
+
 
